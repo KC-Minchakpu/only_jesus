@@ -11,7 +11,7 @@ export default function AboutStory() {
           <span className={styles.tag}>The Beginning</span>
 
          <h2 className={styles.title}>
-            &quot;I Don&apos;t Need to Be Remembered.&quot; <br /> 
+            &quot;I Don&apos;t Need to Be Remembered...<br /> 
             <span>Jesus is the Only Name </span> to Remember!&quot;
           </h2> 
 
