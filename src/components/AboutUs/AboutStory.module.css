@@ -1,0 +1,163 @@
+.section {
+  background: #101828;
+  padding: 120px 0;
+  color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+/* LEFT CONTENT */
+
+.tag {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: #fff;
+  color: #101828;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.title span {
+  display: block;
+  font-weight: 700;
+  font-family: "Play", sans-serif;
+  color: #d9b100;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #00d9a5, #d1a36a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text {
+  color: #cfcfcf;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* RIGHT IMAGE */
+
+.imageWrapper {
+  position: relative;
+  height: 750px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: #777 4px solid;
+}
+
+.image {
+  object-fit: cover;
+}
+
+/* FLOATING CARD */
+
+.floatingCard {
+  position: absolute;
+  bottom: 130px;
+  left: 10px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  background: #2c2c2c;
+  padding: 16px 22px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: rgba(0,255,180,0.15);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.floatingCard h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.floatingCard span {
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .imageWrapper {
+    height: 350px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .floatingCard {
+    left: 20px;
+  }
+
+}
+
+.blockquote {
+  margin: 2.5rem 0;
+  padding: 1.5rem 2rem;
+  border-left: 8px solid #00bcd4;
+  background-color: #f7fbfd;
+  font-style: italic;
+  color: #374151;
+  border-bottom-right-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.blockquote p {
+  margin: 0;
+  line-height: 1.7;
+  font-size: 1.2rem;
+}
+
+.quoteAuthor {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 600;
+  color: #1e2a4a;
+}
+
+.blockquote::before {
+  content: "“";
+  font-size: 4rem;
+  color: #00bcd4;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  opacity: 0.15;
+}
