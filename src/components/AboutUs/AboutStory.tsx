@@ -57,12 +57,12 @@ export default function AboutStory() {
             a personal commitment—to live so that my children, family members, neighbors, colleagues, 
             fellow church members, and all who encounter me would see <strong>“nobody but Jesus.”</strong> My desire is 
             that when my life is remembered, it will be said that I was a man who sought to lift the 
-            name of Jesus Christ in all that he did.
+            name of <strong>Jesus Christ</strong> in all that I did.
           </p>
 
           <p className={styles.text}>
             <strong>Only Jesus</strong> was therefore born as a blog with a clear purpose: to challenge Christians to 
-            live lives that point others to Christ alone. Its message is simple and unwavering—to 
+            live lives that point others to <strong>Christ</strong> alone. Its message is simple and unwavering—to 
             exalt Jesus, reflect His love, and make His name known. <strong>Only Jesus.</strong>
           </p>
         </div>

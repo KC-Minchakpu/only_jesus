@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 80px 60px;
+  background: #101828;
+}
+
+.card {
+  background: #032540;
+  border-radius: 18px;
+  padding: 40px 45px;
+  transition: transform 0.2s ease;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f5b73b;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 30px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.35;
+  max-width: 520px;
+  font-family: "Play", sans-serif;
+}
+
+/* responsive */
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 60px 25px;
+  }
+
+  .text {
+    font-size: 26px;
+  }
+}
